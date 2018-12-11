@@ -1,0 +1,35 @@
+body {
+    background: url(../img/background.jpg) no-repeat fixed;
+    background-size: cover ;
+}
+#event {
+    width: 65%;
+    border-radius: 0 0 0 8px;
+}
+#clearAll {
+    border-radius: 0 8px 0 0;
+}
+#event, #clearAll, #date, #AddTask {
+    padding: 3px;
+    background-color: #00ffff;
+}
+table{
+    width: 80%;
+    height: auto;
+    background-color: rgba(34, 24, 99, 0.7);
+    border-radius: 20px;
+    color: #ffffff;
+}
+td{
+    padding: 10px;
+}
+.AddTask {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 45px 10% 15px 10%;
+    width: 80%;
+
+}
+
+

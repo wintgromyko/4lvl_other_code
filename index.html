@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Alex Gromyko</title>
+</head>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+        <div class="AddTask">
+            <input type="text" class="form-control" id="event" placeholder="Введите задачу"><br>
+            <input id="date" value="2018-12-10" type="date">
+            <button type="button" id="AddTask" onclick="AddTaskTable()">Добавить</button>
+            <button type="button" id="clearAll" onclick="ClearTaskTable()">Удалить всё</button>
+        </div>
+    <div class="OutTable">
+        <table align="center" id="table">
+        </table>
+    </div>
+</body>
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>
